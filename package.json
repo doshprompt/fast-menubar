@@ -19,10 +19,23 @@
       "category": "public.app-category.utilities"
     }
   },
-  "author": "Rahul Doshi <rdoshi@netflix.com>",
-  "license": "ISC",
+  "author": "Rahul Doshi <rahuld223@yahoo.com>",
   "devDependencies": {
     "electron": "^1.4.15",
     "electron-builder": "^15.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doshprompt/fast-menubar.git"
+  },
+  "keywords": [
+    "fast.com",
+    "electron",
+    "menubar",
+    "macos"
+  ],
+  "bugs": {
+    "url": "https://github.com/doshprompt/fast-menubar/issues"
+  },
+  "homepage": "https://github.com/doshprompt/fast-menubar#readme"
 }
