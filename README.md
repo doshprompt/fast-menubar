@@ -4,4 +4,6 @@
 
 ## Motivation
 
+Comments section of ProductHunt page for [Speedtest by Ookla, for Mac](https://www.producthunt.com/posts/speedtest-by-ookla-for-mac):
+
 ![](https://github.com/doshprompt/fast-menubar/blob/master/motivation.png)
