@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Fast.com</title>
+
+        <link rel="stylesheet" type="text/css" href="css/photon.min.css">
+
+        <link rel="stylesheet" type="text/css" href="src/styles.css">
+    </head>
+    <body>
+        <div class="window">
+            <div class="window-content">
+                <div class="splash-screen">
+                    <div class="flex-container flex-center">
+                        <div
+                            class="flex-item text-center logo-block"
+                            style="display: inline-block;">
+                            <img
+                                src="images/logo-vert.svg"
+                                class="logo pulse">
+                        </div>
+                        <div
+                            class="flex-item text-center error-block"
+                            style="display: none;">
+                            <div class="icon icon-arrows-ccw clickable icon-5x retry"></div>
+                            <p>
+                                Your device is offline.
+                                FAST speed test requires an internet connection to start.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-container"></div>
+            </div>
+            <footer class="toolbar toolbar-footer">
+                <div class="toolbar-actions">
+                    <button class="ookla btn btn-default">
+                        Compare on Speedtest.net
+                    </button>
+
+                    <button class="exit btn btn-negative pull-right">
+                        Quit
+                    </button>
+                </div>
+            </footer>
+        </div>
+
+        <script>
+            require('./src/scripts.js');
+            require('./renderer.js');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "fast-menubar",
+  "version": "1.0.0",
+  "description": "Fast.com Speedtest in your Mac Menubar",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron app",
+    "prepackage": "npm run clean",
+    "package": "build --dir",
+    "prerelease": "npm run clean",
+    "release": "build",
+    "clean": "rimraf dist"
+  },
+  "build": {
+    "appId": "com.netflix.fast",
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  },
+  "author": "Rahul Doshi <rdoshi@netflix.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-builder": "^15.1.1"
+  }
+}
