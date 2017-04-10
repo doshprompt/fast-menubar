@@ -1,7 +1,7 @@
 {
   "name": "fast-menubar",
   "version": "1.0.0",
-  "description": "Fast.com Speedtest in your Mac Menubar",
+  "description": "Take a speedtest from your Mac's Menu Bar",
   "main": "main.js",
   "scripts": {
     "postinstall": "install-app-deps",

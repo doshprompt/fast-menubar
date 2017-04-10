@@ -1,6 +1,6 @@
-# fast-menubar
+# Fast.com Speedtest, for Mac (Unofficial)
 
-> The internet speed test that you know and love; now directly accessible from the Mac OSX Menubar!
+> The internet speed test that you know and love; now directly accessible in the Mac OSX Menubar!
 
 ## Motivation
 
