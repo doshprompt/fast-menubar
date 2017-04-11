@@ -4,10 +4,14 @@
 
 <p align="center">
   <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/splash-screen.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/splash-screen.png" height="400"> <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/offline.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/offline.png" height="400">
-
+</p>
+<p align="center">
   <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/running.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/running.png" height="400"> <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/complete.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/complete.png" height="400">
-
+</p>
+<p align="center">
   <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification.png" width="400">
+</p>
+<p align="center">
   <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification-center.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification-center.png" width="400">
 </p>
 
