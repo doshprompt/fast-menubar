@@ -1,0 +1,13 @@
+sudo: false
+
+language: node_js
+node_js:
+  - node
+
+cache:
+  directories:
+    - node_modules
+
+env:
+  global:
+    secure: aMt0Alm3ujj4Rj3aCjF21ydhbY0ezHvDnT4zJxGZLmvNiEHuyvtZeXINPlQm1RWUf1+OKZIsQpTIk1jRMnjwijQpCWimdebJQcg223pUcsjYy/vMIW7ZPDGfiVCyeNaadRN63HFpkuGkJl7Rg2kw8fmD3G80YphL1XXhkJZ9IkmZVkQX/rXPAq1uQJxsLOUgQezzriy1vXHcQQRQ5Ko4yt9OCyOHNbJWt+6IQ838WHSbyKtoNOxbxxFxFBU4VlYIc7El+4dYQ++3Hg/eRJP8RjVdm/Ff9BRsrqc0h55cjyn9KmGHcDwFg00OEI8NahiFsdAZX/zYoNHNVrEAOX3n2WFvQzJGhSt9x5bmyRbsTx1ObGMETjkf2vtA6M7Nwkop1JDkj1WEgblQoywgNaYULWIbYp2yoPLimA+9AEk0LwlSmDxmPTRRxktn5rZt3NJb9sLuEsGsLFX+a/N4mplnGhUUovkJteaTEJvP4Sa22xDXvYFp4yD54pNDN5o3kpTOj5onh/yESA0intoMg/egq+PdSUJKoFmYb9EkLFaosbyir9GiSon3JfiFmi9tE4MrNwnQVFv/gnnkTmuRoi0ZYdp3VrtRp4D5wmPjdMiW6p0R4j4ImOIFCQZr8ayX+XUD02FSGiOCEewE91lblZG/FfVLbU/4KUwcMKxbOUfshw0=
