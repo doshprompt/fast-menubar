@@ -18,7 +18,7 @@ addClassNameListener = (selector, callback) => { // cb
 }
 
 // http://stackoverflow.com/a/12537298
-isHidden = () => document.hidden || document.msHidden || document.webkitHidden || document.mozHidden;
+isHidden = (doc) => doc.hidden || doc.msHidden || doc.webkitHidden || doc.mozHidden;
 
 forEach = (iterable, callback) => Array.prototype.slice.call(iterable || []).forEach(callback);
 
@@ -36,12 +36,7 @@ importNodes = (srDoc, destDoc, tagName, attrLocation, documentLocation) => {
         let newNode;
 
         // change relative paths to absolute paths using given document location
-        if (
-            value &&
-                value.indexOf('http://') !== 0 &&
-                    value.indexOf('https://') !== 0 &&
-                        value.indexOf(documentLocation) !== 0
-        ) {
+        if (value && ~~value.indexOf('http://') && ~~value.indexOf('https://') && ~~value.indexOf(documentLocation)) {
             node.setAttribute(attrLocation, documentLocation + '/' + value);
         }
 
@@ -67,15 +62,9 @@ replaceLinks = (doc, tagName, attrLocation, documentLocation) => {
 
     forEach(nodes, node => {
         let value = node.getAttribute(attrLocation);
-        let newNode;
 
         // change relative paths to absolute paths using given document location
-        if (
-            value &&
-                value.indexOf('http://') !== 0 &&
-                    value.indexOf('https://') !== 0 &&
-                        value.indexOf(documentLocation) !== 0
-        ) {
+        if (value && ~~value.indexOf('http://') && ~~value.indexOf('https://') && ~~value.indexOf(documentLocation)) {
             node.setAttribute(attrLocation, documentLocation + '/' + value);
         }
     });
