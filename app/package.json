@@ -1,6 +1,6 @@
 {
   "name": "Fast.com",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use the fast.com application to help you see how fast your internet connection is, anywhere in the world. It is ad free with a streamlined design that is quick and easy to understand.",
   "main": "main.js",
   "author": "Rahul Doshi <rdoshi@netflix.com>",
