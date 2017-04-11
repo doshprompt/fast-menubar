@@ -8,7 +8,7 @@ You can grab the latest version by visiting the [releases page](https://github.c
 
 Comments section of ProductHunt page for [Speedtest by Ookla, for Mac](https://www.producthunt.com/posts/speedtest-by-ookla-for-mac):
 
-![](https://github.com/doshprompt/fast-menubar/blob/master/motivation.png)
+![](https://github.com/doshprompt/fast-menubar/blob/master/screenshots/motivation.png)
 
 ##### Launch on Startup
 
