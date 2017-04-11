@@ -2,12 +2,14 @@
 
 > The internet speed test that you know and love; now directly accessible in the Mac OSX Menubar!
 
-<img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/splash-screen.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/splash-screen.png" height="400"> <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/offline.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/offline.png" height="400">
+<p align="center">
+  <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/splash-screen.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/splash-screen.png" height="400"> <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/offline.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/offline.png" height="400">
 
-<img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/running.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/running.png" height="400"> <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/complete.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/complete.png" height="400">
+  <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/running.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/running.png" height="400"> <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/complete.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/complete.png" height="400">
 
-<img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification.png" width="400">
-<img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification-center.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification-center.png" width="400">
+  <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification.png" width="400">
+  <img src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification-center.png" data-canonical-src="https://github.com/doshprompt/fast-menubar/blob/master/screenshots/notification-center.png" width="400">
+</p>
 
 You can grab the latest version by visiting the [releases page](https://github.com/doshprompt/fast-menubar/releases)
 
