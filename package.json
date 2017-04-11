@@ -1,6 +1,6 @@
 {
   "name": "fast-menubar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Take a speedtest from your Mac's Menu Bar",
   "main": "main.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "appId": "com.netflix.fast",
     "mac": {
       "category": "public.app-category.utilities"
-    }
+    },
+    "asarUnpack": "vendor/**"
   },
   "author": "Rahul Doshi <rahuld223@yahoo.com>",
   "devDependencies": {
@@ -29,10 +30,29 @@
     "url": "git+https://github.com/doshprompt/fast-menubar.git"
   },
   "keywords": [
-    "fast.com",
     "electron",
+    "menubar-app",
     "menubar",
-    "macos"
+    "macos-app",
+    "macos",
+    "mac-app",
+    "mac",
+    "osx",
+    "speed",
+    "test",
+    "fast.com",
+    "fast",
+    "tester",
+    "down",
+    "download",
+    "speed-test",
+    "speedtest",
+    "connection",
+    "internet",
+    "bandwidth",
+    "measure",
+    "check",
+    "mbps"
   ],
   "bugs": {
     "url": "https://github.com/doshprompt/fast-menubar/issues"
