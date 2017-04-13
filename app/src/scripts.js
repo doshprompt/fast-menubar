@@ -35,12 +35,10 @@ importNodes = (srDoc, destDoc, tagName, attrLocation, documentLocation) => {
         let value = node.getAttribute(attrLocation);
         let newNode;
 
-        // change relative paths to absolute paths using given document location
-        if (value && ~~value.indexOf('http://') && ~~value.indexOf('https://') && ~~value.indexOf(documentLocation)) {
+        if (value && ~~value.indexOf('http://') && ~value.indexOf('https://') && ~~value.indexOf(documentLocation)) {
             node.setAttribute(attrLocation, documentLocation + '/' + value);
         }
 
-        // Script tag cannot be imported on last iOS WebKit
         if (tagName === 'script') {
             newNode = destDoc.createElement(tagName);
             newNode.setAttribute('type', 'text/javascript');
@@ -63,7 +61,6 @@ replaceLinks = (doc, tagName, attrLocation, documentLocation) => {
     forEach(nodes, node => {
         let value = node.getAttribute(attrLocation);
 
-        // change relative paths to absolute paths using given document location
         if (value && ~~value.indexOf('http://') && ~~value.indexOf('https://') && ~~value.indexOf(documentLocation)) {
             node.setAttribute(attrLocation, documentLocation + '/' + value);
         }
@@ -87,7 +84,5 @@ importBody = (srcDoc, destDoc) => {
     let srcBody = getElementsByTagName(srcDoc, 'body')[0];
     let destBody = getElementsByClassName(destDoc, 'app-container')[0];
 
-    // Avoid appendChild on body, here we removed scripts tags
-    // and will execute them after via injectNodes
     destBody.innerHTML = srcBody.innerHTML;
 }

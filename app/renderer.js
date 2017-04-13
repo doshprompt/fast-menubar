@@ -54,17 +54,14 @@ function loadPageAsync(url, language) {
             let newStylesheets = importNodes(newDocument, originalDoc, 'link', 'href', url);
 
             setTimeout(function() {
-                // Brutal import
                 injectNodes(newStylesheets, originalDoc, 'head');
                 importBody(newDocument, originalDoc);
 
-                // Execute JS
                 injectNodes(newScripts, originalDoc, 'body');
 
                 appLocationScripts = newScripts;
                 newLocationStylesheets = newStylesheets;
 
-                // replace links to FAQ documents
                 replaceLinks(originalDoc, 'span', 'target-language-path', url);
 
                 // hide loading indicator
